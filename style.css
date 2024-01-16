@@ -1,0 +1,30 @@
+html, body {
+    width: 1000px; 
+    height: 600px; 
+    margin: 60px;
+    overflow: hidden;
+  }
+
+.profile-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid navy;
+    width: 500px;
+    padding: 40px 50px 40px 50px;
+    margin: 10% 30% 20% 30%;
+    border-radius: 200px;
+}
+
+.profile-box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-box input{
+    cursor: pointer;
+    padding-left: 20px;
+}
